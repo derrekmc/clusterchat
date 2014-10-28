@@ -11,11 +11,6 @@ module.exports = {
 
     attributes: {
 
-        name: {
-            type: 'string',
-            required: true
-        },
-
         username: {
             type: 'string',
             max: 16,
@@ -23,11 +18,9 @@ module.exports = {
             required: true
         },
 
-        email: {
+        name: {
             type: 'string',
-            email: true,
-            required: true,
-            unique: true
+            required: true
         },
 
         password: {
@@ -39,6 +32,13 @@ module.exports = {
             type: 'boolean',
             defaultsTo: 0,
             required: true
+        },
+
+        email: {
+            type: 'string',
+            email: true,
+            required: true,
+            unique: true
         }
 
     },
