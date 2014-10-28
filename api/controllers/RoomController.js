@@ -6,13 +6,16 @@
  */
 
 module.exports = {
-	 hi: function (req, res) {
-         return res.send("Hi there!");
-      },
-      message: function (req, res) {
-        return res.redirect("http://www.sayonara.com");
-      }
-
 
 };
+
+
+/*
+ hi: function (req, res) {
+ return res.send("Hi there!");
+ },
+ message: function (req, res) {
+ return res.redirect("http://www.sayonara.com");
+ }
+ */
 

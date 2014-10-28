@@ -60,50 +60,6 @@ module.exports = {
             ]
         },
 
-        homePageImage: {
-            type: 'string',
-            defaultValue: null
-        },
-        profileImage: {
-            type: 'string',
-            defaultValue: null
-        },
-        userCount: {
-            type: 'integer',
-            defaultValue: 0
-        },
-        users: {
-            type: 'json',
-            defaultValue: []
-        },
-        owners: {
-            type: 'json',
-            defaultValue: []
-        },
-        log: {
-            type: 'json',
-            defaultValue: []
-        },
-        topic: {
-            type: 'string',
-            defaultValue: 'No Topic Specified'
-        },
-        tipGoal: {
-            type: 'integer',
-            defaultValue: 30
-        },
-        tipRemaining: {
-            type: 'integer',
-            defaultValue: 30
-        },
-        tippedAmount: {
-            type: 'integer',
-            defaultValue: 0
-        },
-        totalTips: {
-            type: 'integer',
-            defaultValue: 0
-        }
   }
 
 
